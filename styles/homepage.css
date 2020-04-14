@@ -1,0 +1,102 @@
+/* hero section styles */
+.hero-section   {
+    /* background-image: url(../images/backgrounds/taxEZ\ background2019.jpg); */
+    padding: 100px;
+    height: 150px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section > .video-background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+.hero-section > .top-heading {
+    padding: 1px 20px;
+    background-color: #466725;
+    color: #D1E2BF;
+    width: 180px;
+    border-radius: 2px;
+}
+
+.hero-section > .bottom-heading {
+    background-color: #cea135;
+    color: black;
+    padding: 1px 20px;
+    margin-top: 15px;
+    width: 270px;
+    border-radius: 2px;
+}
+
+/* Feature section styles */
+.features-section {
+    height: 380px;
+    /* background-image: url(../images/backgrounds/taxEZ\ background2019.jpg); */
+    background-color: #466725;
+    /* border-top: 10px solid white; */
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu Condensed", sans-serif;
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
+
+.features-section-corona {
+    height: 620px;
+    width: 100vw;
+    background-position: center;
+    background-image: url(../images/backgrounds/covid19Landing.jpg);
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    /* box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58); */
+}
+
+.features-section > .columns-wrapper {
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+}
+/* .features-section > .corona-columns-wrapper {
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+} */
+
+.features-section > .columns-wrapper > .column {
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+/* .features-section > .corona-columns-wrapper > .corona-column {
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+} */
+
+.features-section > .columns-wrapper > .column:hover {
+    border-bottom: 5px solid #cea135;
+    
+}
+
+.features-section > .columns-wrapper > .column :nth-child(1) {
+    font-size: 3em;
+}
+.features-section > .columns-wrapper > .column :nth-child(1):hover {
+    color: #cea135;
+}
