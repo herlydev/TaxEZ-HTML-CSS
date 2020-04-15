@@ -13,5 +13,5 @@ Simple design, easy flow, menu navbar and footer with contact info and linked to
 
 * Front-end built purely with HTML5 and CSS.
 * Back-end appointment calendar supported by Calendly embedded links.
-* Github repo: HerlyDev
-* Heroku hosted.
+* Github repo: HerlyDev (github.com/herlydev/TaxEZ-HTML-CSS)
+* Hosted for testing at: http://taxez.epizy.com/index.html
